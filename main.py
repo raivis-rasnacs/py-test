@@ -3,5 +3,10 @@ Just a simple python file
 """
 
 print(__doc__)
-print("Hello, github!")
+
+
+def hello(text):
+    print(f"Hello, {text}!")
+
+hello("GitHub")
 # Comments are cool
